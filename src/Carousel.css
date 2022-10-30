@@ -1,0 +1,129 @@
+.carousel {
+   width: 100%;
+   height: auto;
+   color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 2rem 0;
+   background-color:  #F7F8FA;
+}
+
+.carousel h3 {
+   margin: 2rem 0;
+   font-size: 2rem;
+   font-weight: 700;
+}
+
+.slider {
+   width: 85%;
+   /* background-color: red; */
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.btn1  :hover{
+   transform: scale(1.2);
+}
+.btn2 :hover{
+   
+   transform: rotate(180deg) scale(1.2);
+}
+.btn2 img {
+   transform: rotate(180deg);
+}
+
+.request-dish {
+   width: 10rem;
+   padding: 1.5rem 2rem;
+   color: white;
+   font-weight: 500;
+   background-color: #1AC073;
+   border: none;
+   margin-top: 3rem;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.slider2 {
+   box-shadow: 1px 1px 30px rgb(84, 81, 81);
+   border-radius: 10px;
+}
+
+.request-popup {
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.416);
+   position: absolute;
+   top: 0;
+   z-index: 99;
+   display: flex;
+   justify-content: center;
+
+}
+
+.dish-request-menu {
+   background-color: white;
+   width: 90%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 3rem;
+   border-radius: 10px;
+}
+
+.dish-request-menu h2 {
+   margin: 5rem;
+}
+
+.dish-request-menu label {
+   text-align: left;
+}
+
+.close {
+   display: none;
+}
+
+.input-field {
+   width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 2rem;
+}
+
+.input-field input {
+   margin: 1rem;
+   background-color: #f2f2f2;
+   border: none;
+   padding: 1.5rem;
+   outline: none;
+   border-radius: 10px;
+}
+
+.request-controls {
+   margin: 3rem 0;
+}
+
+.request-controls button {
+   margin: 0 1rem;
+   padding: 10px 50px;
+   border-radius: 5px;
+}
+
+#cancel {
+   padding: 18px 66px;
+   background-color: white;
+   border: 2px solid #1AC073;
+}
+
+#submit {
+   background-color: #1AC073;
+   border: none;
+   color: white;
+   padding: 20px 43px;
+}

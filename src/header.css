@@ -1,0 +1,36 @@
+.part{
+    background-color: #1AC073;
+}
+.header {
+    background-color: #1AC073;
+    color: white;
+    margin: 0rem;
+    padding: 1rem;
+    justify-content: space-around;
+    display: flex;
+}
+.navbar{
+    margin:1rem;
+}
+.navbar a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 1rem;
+
+}
+
+.head {
+    margin: 0.5rem 0rem 0rem 0rem;
+    font-family: 'Squada One', cursive;
+    font-size: 32px;
+}
+
+.icon img {
+    padding: 1rem;
+}
+hr{
+margin: 1rem 9rem 0rem 9rem;
+position: relative;
+top: -2rem;
+width: 1195px;
+}

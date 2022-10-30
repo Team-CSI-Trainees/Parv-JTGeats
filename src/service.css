@@ -1,0 +1,47 @@
+section{
+    background-color:  #F7FAFA;
+}
+.serhead1{
+width: 750px;
+height: 114px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #252B42;
+padding:2rem 0rem 1rem 24rem;
+}
+.serhead2{
+width: 447px;
+height: 40px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #737373;
+padding:0rem 0rem 0rem 33.4rem;
+}
+.video{
+  height:151px;
+  position: relative
+}
+.myvedio{
+    margin:1rem 28rem ;
+    position:"absolute";
+    z-index: 99;
+    left:50%;
+    top:10%;
+}
+.cover{
+height: 275px;
+background: #C7EACC;
+}
+.main{
+    padding: 2rem;
+}

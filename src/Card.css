@@ -1,0 +1,56 @@
+.ncards{
+    margin: 3rem 3.2rem 2rem 3.2rem;
+    width: 250px;
+    height: 320px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.food{
+width: 250px;
+height: 250px;
+border-radius: 10px 10px 0px 0px;
+}
+.details{
+    background-color: white;
+    width: 250px;
+    padding: 0rem 0rem 0.3rem 0rem;
+    border-radius: 0px 0px 10px 10px;
+}
+.details2{
+    justify-content: space-between;
+    margin: 1rem 1rem 0rem 1rem;
+    display: flex;
+}
+.name {
+    margin: 0rem 5rem 0rem 1rem;
+}
+.quantity{
+    cursor: pointer;
+    display: flex;
+    border: 0.5px solid #F3BA00;
+    border-radius: 5px;
+    width: 69px;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.quantity img{
+    height: 20px;
+    width: 20px;
+}
+
+.time {
+    background-color: #F7F8FA;
+    padding: 1px 1px;
+    margin-left: 10px;
+    box-shadow: 3px 0px 1px #949292, -3px 0px 1px #949292;
+    border-radius: 5px;
+}
+
+.card-ratings img {
+    margin-right: 3px;
+}
+
+.hide-btn {
+    display: none;
+} 

@@ -1,0 +1,13 @@
+.menu{
+    background-color:  #F7F8FA;
+}
+h1{ 
+    padding: 2rem 0rem 0rem 0rem;
+    font-size: 2.5rem;
+    margin: 0rem 8rem 0rem 7rem;
+}
+.cards{
+    margin: 0rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}

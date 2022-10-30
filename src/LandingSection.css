@@ -1,0 +1,57 @@
+
+  
+  .flex1 {
+    background-color: #1AC073;
+    display: flex;
+  }
+  
+  .head1 {
+    margin: 5rem 10rem 0rem 7rem;
+    padding: 2rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 82px;
+    color: #FFFFFF;
+    width: 534px;
+    height: 147px;
+  }
+  
+  .head2 {
+    margin: 0rem 10rem 1rem 9rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    width: 441px;
+    height: 40px;
+  }
+  
+  .cuate {
+    width: 521.63px;
+    height: 525px;
+    margin: 5rem 3rem 2rem 0rem;
+  }
+  
+  .flex1 input {
+    padding: 0rem 2rem;
+    font-family: 'Roboto';
+    height: 58px;
+    width: 340px;
+    margin: 1rem 0rem 0rem 9rem;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  .flex1 button {
+    padding: 19px 16px;
+    height: 58px;
+    width: 70px;
+    background-color: #F3BA00;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+  }

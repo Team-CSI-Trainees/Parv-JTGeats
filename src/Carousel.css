@@ -18,21 +18,27 @@
 
 .slider {
    width: 85%;
-   /* background-color: red; */
    display: flex;
    justify-content: space-around;
    align-items: center;
 }
-.btn1  :hover{
-   transform: scale(1.2);
-}
-.btn2 :hover{
+
+
+.btn1  :active{
+   border-radius:50px; ;
+   background-image: url("./image/activeArrow.svg");
+   transform: rotate(180deg);
    
-   transform: rotate(180deg) scale(1.2);
 }
-.btn2 img {
+.btn2 img  {
    transform: rotate(180deg);
 }
+.btn2 :active{
+   border-radius:50px; ;
+   transform: rotate(0deg);
+   background-image: url("./image/activeArrow.svg");
+}
+
 
 .request-dish {
    width: 10rem;
@@ -47,7 +53,6 @@
 }
 
 .slider2 {
-   box-shadow: 1px 1px 30px rgb(84, 81, 81);
    border-radius: 10px;
 }
 

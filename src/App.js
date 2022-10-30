@@ -9,7 +9,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 function App() {
   return (
-    <>
+    <section className='imp' id='imp'>
 
       <Header />
       <LandingSection />
@@ -18,7 +18,7 @@ function App() {
       <Service />
       <Contact />
       <Footer />
-    </>
+    </section>
   );
 }
 export default App;

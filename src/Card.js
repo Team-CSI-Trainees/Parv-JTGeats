@@ -6,7 +6,7 @@ import add from "./image/addbtn.png";
 import subbtn from "./image/subtocart.png";
 
 const Card = (props) => {
-
+    
     const [q, setq] = useState(1);
     const [openquantity, setopenquantity] = useState(false);
 

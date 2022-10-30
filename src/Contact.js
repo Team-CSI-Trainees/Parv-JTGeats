@@ -9,7 +9,7 @@ const Contact = () => {
 
     }
     return (
-        <form className="form" onSubmit={sendEmail}>
+        <form className="form" id="form" onSubmit={sendEmail}>
             <div className="contact">
                 <div className="conmain">
                     <div>

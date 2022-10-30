@@ -1,29 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import cart from './image/Group.svg';
 import search from './image/akar-icons_search.svg';
 import "./header.css"
 import Facebook from './image/Facebook.svg';
 import IG from './image/ig.svg';
+import bag from './image/bag.svg';
 
 const Header = ({ isFooter = false }) => {
+    const[cart1,setcart]=useState(false);
     return (
         <section className="part">
         <div className="header">
-            <div className='head'>JTGeats</div>
+            <a href="#imp" className='head'>JTGeats</a>
             <div className='navbar'>
-                <a>Home</a>
+                <a href="#imp">Home</a>
                 <a>About</a>
-                <a>Menu</a>
+                <a href="#menu">Menu</a>
                 <a>Blog</a>
-                <a>Contact</a>
+                <a href="#form">Contact</a>
             </div>
             {isFooter ? <div className='icon'>
-                <img src={Facebook} />
-                <img src={IG} />
+            <button><img src={Facebook} /></button>
+            <button><img src={IG} /></button>
             </div> : <div className='icon'>
-                <img src={search} />
-                <img src={cart} />
+                <button><img src={search} /></button>
+                <button onClick={()=>{setcart(true)}}><img src={cart} /></button>
             </div>}
+            <div className={cart1 ? "cart-pop":"close"}>
+                <div className="bag"><img src={bag}/></div>
+                <div className="cart-head">Cart is Empty</div>
+                <p>Add some items to the cart to checkout</p>
+                <button className="cart-btn" onClick={()=>{setcart(false)}}>Back To Menu</button>
+            </div>
         </div>
         {isFooter?<hr/>:" "}
         </section>

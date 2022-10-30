@@ -148,9 +148,7 @@ console.log("==0",request)
             <input type="text" placeholder="   Paste a URL" />
           </div>
           <div className="request-controls">
-            <a href="#LandingSection">
             <button id="cancel" onClick={() => { setrequest(false) }}>Cancel</button>
-            </a>
             <button id="submit">Submit Request</button>
 
           </div>

@@ -28,20 +28,44 @@ color: #737373;
 padding:0rem 0rem 0rem 33.4rem;
 }
 .video{
-  height:151px;
-  position: relative
+    height: 235px;
+    position: relative
 }
-.myvedio{
-    margin:1rem 28rem ;
-    position:"absolute";
-    z-index: 99;
-    left:50%;
-    top:10%;
+.mainvedio{
+margin: 2rem 16rem;
+height: 30rem;
+width: 60rem;
+object-fit: fill;
 }
 .cover{
-height: 275px;
+height: 335px;
 background: #C7EACC;
 }
 .main{
     padding: 2rem;
+}
+@media only screen and (max-width: 600px){
+.serhead1{
+width: 336px;
+height: 114px;
+font-size: 22px;
+padding: 0rem;
+}
+.serhead2{
+    padding: 1rem 0rem;
+    width: 343px;
+}
+.video{
+    height: 111px;
+}
+.mainvedio{
+margin: 2rem 0rem;
+height: 13rem;
+width: 21rem;
+object-fit: fill;   
+}
+.cover{
+    height: 10rem;
+}
+
 }

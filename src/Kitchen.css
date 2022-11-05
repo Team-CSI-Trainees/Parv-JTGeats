@@ -7,7 +7,12 @@ h1{
     margin: 0rem 8rem 0rem 7rem;
 }
 .cards{
-    margin: 0rem 3rem;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
+/* @media only screen and (max-width: 600px){
+    .cards{
+        margin:0rem 0.3rem;
+    }
+} */

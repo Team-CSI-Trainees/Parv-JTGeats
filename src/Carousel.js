@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Carousel.css";
-import btn1 from "./image/Arrow.svg";
+import intersect from "./image/Intersect.svg"
 import Card from "./Card";
 import img1 from "./image/img1.jpg";
 import img2 from "./image/img2.jpg";
@@ -14,42 +14,42 @@ const Carousel = () => {
   const [j, setj] = useState(1);
   const [k, setk] = useState(2);
   const Slidedata = [
-    {
+    { id:1,
       img: img1,
       name: "Home Made Pizza",
       price: "$19",
       rating: "4.7",
       time: "45-50 min"
     },
-    {
+    { id:3,
       img: img2,
       name: "Delicious Pizza",
       price: "$19",
       rating: "4.7",
       time: "45-50 min"
     },
-    {
+    { id:4,
       img: img5,
       name: "Tandoori Chicken",
       price: "$35",
       rating: "4.7",
       time: "45-50 min"
     },
-    {
+    { id:5,
       img: img6,
       name: "Chilli Chicken",
       price: "$30",
       rating: "4.7",
       time: "45-50 min"
     },
-    {
+    { id:6,
       img: img3,
       name: "Extra Cheese Pizza",
       price: "$20",
       rating: "4.7",
       time: "45-50 min"
     },
-    {
+    { id:7,
       img: img4,
       name: "Home Cook Pizza",
       price: "$15",
@@ -59,33 +59,33 @@ const Carousel = () => {
   ]
 
   const prev = () => {
-    if (i == 0)
+    if (i === 0)
       seti(Slidedata.length - 1);
     else
       seti(i - 1);
 
-    if (j == 0)
+    if (j === 0)
       setj(Slidedata.length - 1);
     else
       setj(j - 1);
 
-    if (k == 0)
+    if (k === 0)
       setk(Slidedata.length - 1);
     else
       setk(k - 1);
   };
   const next = () => {
-    if (i == Slidedata.length - 1)
+    if (i === Slidedata.length - 1)
       seti(0);
     else
       seti(i + 1);
 
-    if (j == Slidedata.length - 1)
+    if (j === Slidedata.length - 1)
       setj(0);
     else
       setj(j + 1);
 
-    if (k == Slidedata.length - 1)
+    if (k === Slidedata.length - 1)
       setk(0);
     else
       setk(k + 1);
@@ -100,36 +100,16 @@ console.log("==0",request)
 
       <div className="slider">
         <div className="btn1" onClick={prev}>
-          <img src={btn1} alt="" />
+          <img src={intersect} alt="" />
         </div>
 
-        <Card className="slider1" 
-        img={Slidedata[i].img} 
-        name={Slidedata[i].name} 
-        price={Slidedata[i].price} 
-        rating={Slidedata[i].rating} 
-        time={Slidedata[i].time}>
-        </Card>
+        <Card val={Slidedata[i]} />
+        <Card val={Slidedata[j]} />
+        <Card val={Slidedata[k]} />
 
-        <div className="slider2">
-          <Card img={Slidedata[j].img}
-            name={Slidedata[j].name}
-            price={Slidedata[j].price}
-            rating={Slidedata[j].rating} 
-            time={Slidedata[j].time}>
-          </Card>
-        </div>
-
-        <Card className="slider3" 
-          img={Slidedata[k].img}
-          name={Slidedata[k].name}
-          price={Slidedata[k].price}
-          rating={Slidedata[k].rating} 
-          time={Slidedata[k].time}>
-        </Card>
 
         <div className="btn2" onClick={next}>
-          <img src={btn1} alt="" />
+          <img src={intersect} alt="" />
         </div>
       </div>
       <a href="#LandingSection" >

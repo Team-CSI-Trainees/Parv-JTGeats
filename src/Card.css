@@ -2,7 +2,8 @@
     margin: 3rem 3.2rem 2rem 3.2rem;
     width: 250px;
     height: 320px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 0px rgb(0 0 0 / 0.3);
 }
 
 .food{
@@ -13,8 +14,8 @@ border-radius: 10px 10px 0px 0px;
 .details{
     background-color: white;
     width: 250px;
-    padding: 0rem 0rem 0.3rem 0rem;
-    border-radius: 0px 0px 10px 10px;
+    padding: 0rem 0rem 0.6rem 0rem;
+    border-radius: 0px 0px 10px 14px;
 }
 .details2{
     justify-content: space-between;

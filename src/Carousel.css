@@ -19,24 +19,42 @@
 .slider {
    width: 85%;
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    align-items: center;
 }
 
-
+.btn1 img{
+   background-image: url("./image/Polygon\ 1.svg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-position-x: 22px;
+   background-position-y: 21px;
+}
 .btn1  :active{
    border-radius:50px; ;
-   background-image: url("./image/activeArrow.svg");
+   background-image: url("./image/Polygon\ 1\ \(1\).svg");
    transform: rotate(180deg);
-   
+   background-repeat: no-repeat;
+   background-color: #1AC073;
+   background-position-x: 27px;
 }
 .btn2 img  {
+   background-image: url("./image/Polygon\ 1.svg");
+   background-repeat: no-repeat;
+   background-position: center;
    transform: rotate(180deg);
+   background-position-x: 22px;
+   background-position-y: 21px;
 }
 .btn2 :active{
    border-radius:50px; ;
-   transform: rotate(0deg);
-   background-image: url("./image/activeArrow.svg");
+   border-radius:50px; ;
+   background-image: url("./image/Polygon\ 1\ \(1\).svg");
+   background-repeat: no-repeat;
+   background-color: #1AC073;
+   background-position: center;
+   transform: rotate(360deg);
+   background-position-x: 27px;
 }
 
 
@@ -131,4 +149,21 @@
    border: none;
    color: white;
    padding: 20px 43px;
+}
+@media only screen and (max-width: 1200px){
+   .slider{
+       flex-wrap: wrap;
+   }
+   .btn1 img{
+      transform: rotate(90deg);
+   }
+   .btn1 :active{
+      transform: rotate(270deg);
+   }
+   .btn2 img{
+      transform: rotate(-90deg);
+   }
+   .btn2 :active{
+      transform: rotate(-270deg);
+   }
 }

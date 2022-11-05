@@ -24,11 +24,11 @@ const Contact = () => {
                         <div className="msg">
                             <textarea placeholder=" Your Message" name="msg" rows="8" cols="87" required />
                         </div>
-                        <button className="consub" type="submit" onClick={()=>alert("Submitted Successfully")}>Submit</button>
+                        <button className="consub" type="submit" onClick={()=>alert("Message sent Successfully")}>Submit</button>
 
                     </div>
                     <div className="rider">
-                        <img src={Rider} />
+                        <img src={Rider} alt="" />
                     </div>
                 </div>
             </div>

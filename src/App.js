@@ -7,13 +7,14 @@ import Carousel from './Carousel';
 import Service from "./service";
 import Contact from './Contact';
 import Footer from './Footer';
+
 function App() {
   return (
     <section className='imp' id='imp'>
 
       <Header />
       <LandingSection />
-      <Kitchen />
+      <Kitchen  /> 
       <Carousel />
       <Service />
       <Contact />

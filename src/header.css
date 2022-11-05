@@ -18,7 +18,10 @@
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     padding: 1rem;
-
+    scroll-behavior: smooth;
+}
+.navbar a :hover{
+    color:black;
 }
 
 .head {
@@ -34,7 +37,7 @@
     border:none ;
 }
 .icon img {
-    padding: 1rem;
+    padding: 1rem 0.5rem;
 }
 .cart-pop{
     display: grid;
@@ -82,4 +85,27 @@ margin: 1rem 9rem 0rem 9rem;
 position: relative;
 top: -2rem;
 width: 1195px;
+}
+.social :hover  {
+    transform: scale(1.5,1.5); 
+}
+@media only screen and (max-width: 1200px){
+    .navbar{
+        margin:0.5rem;
+    }
+    .icon img {
+        height: 10px;
+        padding: 1rem 0.5rem 0rem 0rem;
+    }
+    .navbar a {
+        font-size: 10px;
+        padding: 1rem 0.3rem;
+    }
+    .head {
+        font-size: 18px}
+    hr{
+        margin: 1rem 1rem;
+        top: -2rem;
+        width: 347px;
+    }
 }

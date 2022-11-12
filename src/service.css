@@ -2,17 +2,15 @@ section{
     background-color:  #F7FAFA;
 }
 .serhead1{
-width: 750px;
+width: 744px;
 height: 114px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
-line-height: 57px;
 text-align: center;
-letter-spacing: 0.2px;
 color: #252B42;
-padding:2rem 0rem 1rem 24rem;
+padding:2rem 22rem 1rem 22rem;
 }
 .serhead2{
 width: 447px;
@@ -21,18 +19,16 @@ font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 20px;
 text-align: center;
-letter-spacing: 0.2px;
 color: #737373;
-padding:0rem 0rem 0rem 33.4rem;
+padding:0rem 30rem 0rem 31rem;
 }
 .video{
     height: 235px;
     position: relative
 }
 .mainvedio{
-margin: 2rem 16rem;
+margin: 2rem 17rem;
 height: 30rem;
 width: 60rem;
 object-fit: fill;
@@ -42,9 +38,11 @@ height: 335px;
 background: #C7EACC;
 }
 .main{
+    justify-content: center;
+    display: grid;
     padding: 2rem;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1200px){
 .serhead1{
 width: 336px;
 height: 114px;

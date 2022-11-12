@@ -1,7 +1,9 @@
 
-  .flex1 {padding: 1rem;
+  .flex1 {
+    padding: 1rem;
     background-color: #1AC073;
     display: flex;
+    justify-content: center;
   }
   
   .head1 {

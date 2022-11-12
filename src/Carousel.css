@@ -17,7 +17,6 @@
 }
 
 .slider {
-   width: 85%;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -152,7 +151,7 @@
 }
 @media only screen and (max-width: 1200px){
    .slider{
-       flex-wrap: wrap;
+      display: contents;
    }
    .btn1 img{
       transform: rotate(90deg);
